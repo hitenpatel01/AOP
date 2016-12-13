@@ -1,0 +1,27 @@
+{
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "emitEntryPoint": true,
+    "copyToOutput": {
+      "include": ["nlog.config"]
+    }
+  },
+  "frameworks": {
+    "net461": {
+    }
+  },
+  "dependencies": {
+    "Castle.Core": "3.3.3",
+    "Microsoft.Extensions.Configuration": "1.0.0",
+    "Microsoft.Extensions.Configuration.EnvironmentVariables": "1.0.0",
+    "Microsoft.Extensions.Configuration.FileExtensions": "1.0.0",
+    "Microsoft.Extensions.Configuration.Json": "1.0.0",
+    "Microsoft.Extensions.DependencyInjection": "1.1.0",
+    "Microsoft.Extensions.DependencyInjection.Abstractions": "1.1.0",
+    "Microsoft.Extensions.Logging": "1.1.0",
+    "Microsoft.Extensions.Logging.Abstractions": "1.1.0",
+    "Microsoft.Extensions.Logging.Console": "1.1.0",
+    "NLog": "4.3.11",
+    "NLog.Extensions.Logging": "1.0.0-rtm-alpha5"
+  }
+}

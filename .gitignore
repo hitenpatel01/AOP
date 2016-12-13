@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/bin/Debug/net461
+/obj/Debug/net461
+/AOP.xproj.user
+/project.lock.json
