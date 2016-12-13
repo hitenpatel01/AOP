@@ -1,0 +1,19 @@
+2016-12-12 23:38:13.7657|LoggingInterceptor             | Executing - ProductService.GetProducts()
+2016-12-12 23:38:13.8447|LoggingInterceptor             | Executed - ProductService.GetProducts => 3 item(s)
+2016-12-12 23:38:13.8642|LoggingInterceptor             | Executing - ProductService.GetProductById(1)
+2016-12-12 23:38:13.8642|CachingInterceptor             | Cache Miss - Key = "ProductService::GetProductById::1"
+2016-12-12 23:38:13.8642|LoggingInterceptor             | Executed - ProductService.GetProductById => Product 1
+2016-12-12 23:38:13.8642|LoggingInterceptor             | Executing - ProductService.GetProductById(1)
+2016-12-12 23:38:13.8642|CachingInterceptor             | Cache Hit - Key = "ProductService::GetProductById::1"
+2016-12-12 23:38:13.8642|LoggingInterceptor             | Executed - ProductService.GetProductById => Product 1
+2016-12-12 23:38:13.9037|LoggingInterceptor             | Executing - OrderService.PlaceOrder(1, 12)
+2016-12-12 23:38:13.9037|AuthenticationInterceptor      | Access Denied - OrderService.PlaceOrder(1, 12)
+2016-12-12 23:38:13.9037|LoggingInterceptor             | Executed - OrderService.PlaceOrder => False
+2016-12-12 23:38:13.9037|LoggingInterceptor             | Executing - OrderService.PlaceOrder(1, 12)
+2016-12-12 23:38:13.9127|LoggingInterceptor             | Executing - ProductService.DecrementStock(1, 12)
+2016-12-12 23:38:13.9127|LoggingInterceptor             | Executed - ProductService.DecrementStock => 88
+2016-12-12 23:38:13.9127|LoggingInterceptor             | Executed - OrderService.PlaceOrder => True
+2016-12-12 23:38:14.1617|Test - No IOC                  | Tests: 1000000, Duration: 240 msec
+2016-12-12 23:38:14.5022|Test - IOC without interception| Tests: 1000000, Duration: 338 msec
+2016-12-12 23:38:18.8892|Test - IOC with interception   | Tests: 1000000, Duration: 4385 msec
+Press ANY key to quit...
